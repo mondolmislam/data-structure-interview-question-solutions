@@ -4,7 +4,7 @@ public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
 
     private Node<T> root;
 
-    private Node insertIntoTree(Node<T> root, Node<T> node) {
+    private Node<T> insertIntoTree(Node<T> root, Node<T> node) {
 
         if (root == null) {
             return node;
